@@ -21,4 +21,8 @@ export class HomeComponent {
 		console.log("monos")
 		this.category = newCategory;
 	}
+
+	// onAddToCart(product: any): void {
+	// 	console.log("product", product);
+	// }
 }
