@@ -9,7 +9,7 @@ export class FiltersComponent {
   categories = ['shoes', 'sports'];
 
   onShowCategory(category: string): void {
-    console.log('monos', category)
+    // console.log('monos', category)
     this.showCategory.emit(category);
   }
 }

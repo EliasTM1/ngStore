@@ -18,7 +18,7 @@ export class ProductsHeaderComponent {
 	}
 
 	onColumnsUpdated(colsNum: number): void {
-		console.log(colsNum, "Cols num");
+		// console.log(colsNum, "Cols num");
 		this.columnsCountChange.emit(colsNum);
 	}
 }

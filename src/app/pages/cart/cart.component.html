@@ -33,17 +33,14 @@
 				<button mat-icon-button>
 					<mat-icon>remove</mat-icon>
 				</button>
-                <span>
-                    {{ element.quantity }}
-                </span>
+				<span>
+					{{ element.quantity }}
+				</span>
 				<button mat-icon-button>
 					<mat-icon>add</mat-icon>
 				</button>
 			</td>
-            <td class="flex items-center">
-               
-              </td>
-              
+			<td class="flex items-center"></td>
 			<td mat-footer-cell *matFooterCellDef></td>
 		</ng-container>
 		<!-- * Total -->
@@ -73,10 +70,10 @@
 				</button>
 			</td>
 			<td mat-footer-cell *matFooterCellDef>
-                <button mat-raised-button color="primary" class="float-right">
-                    Proceed to checkout
-                </button>
-            </td>
+				<button mat-raised-button color="primary" class="float-right">
+					Proceed to checkout
+				</button>
+			</td>
 		</ng-container>
 
 		<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
